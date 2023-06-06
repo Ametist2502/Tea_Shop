@@ -88,6 +88,13 @@
         display: none;
     } 
   }*/
+@media only screen and (max-width: 767px) {
+    .bann_img {
+      right: auto;
+      left: 150px;
+      top: 6rem;
+    }
+}
 
 @media (min-width: 576px) and (max-width: 767px) {
     .header_top {
