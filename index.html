@@ -1,396 +1,440 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <!-- basic -->
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <!-- mobile metas -->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-      <!-- site metas -->
-      <title>Name of Shop</title>
-      <meta name="keywords" content="">
-      <meta name="description" content="">
-      <meta name="author" content="">
-      <!-- bootstrap css -->
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <!-- style css -->
-      <link rel="stylesheet" href="css/style.css">
-      <!-- Responsive-->
-      <link rel="stylesheet" href="css/responsive.css">
-      <!-- fevicon -->
-      <link rel="icon" href="images/fevicon.png" type="image/gif" />
-      <!-- Scrollbar Custom CSS -->
-      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-      <!-- Tweaks for older IEs-->
-      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-      <!--[if lt IE 9]>
+
+<head>
+   <!-- basic -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!-- mobile metas -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+   <!-- site metas -->
+   <title>Name of Shop</title>
+   <meta name="keywords" content="">
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <!-- bootstrap css -->
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <!-- style css -->
+   <link rel="stylesheet" href="css/style.css">
+   <!-- Responsive-->
+   <link rel="stylesheet" href="css/responsive.css">
+   <!-- fevicon -->
+   <link rel="icon" href="images/fevicon.png" type="image/gif" />
+   <!-- Scrollbar Custom CSS -->
+   <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+   <!-- Tweaks for older IEs-->
+   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+      media="screen">
+   <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-   </head>
-   <!-- body -->
-   <body class="main-layout">
-      <!-- loader  -->
-      <div class="loader_bg">
-         <div class="loader"><img src="images/loading.gif" alt="#"/></div>
+</head>
+<!-- body -->
+
+<body class="main-layout">
+   <!-- loader  -->
+   <div class="loader_bg">
+      <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+   </div>
+   <!-- end loader -->
+   <div id="myNav" class="menu_sid">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="menu_sid-content">
+         <a href="#product">Our Products</a>
+         <a href="#about">About Us</a>
+         <a href="#feedback">Feedback</a>
+         <a href="#contact">Contact Us</a>
       </div>
-      <!-- end loader -->
-      <div id="myNav" class="menu_sid">
-         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-         <div class="menu_sid-content">
-            <a href="#product">Our Products</a>
-            <a href="#about">About Us</a>
-            <a href="#feedback">Feedback</a>
-            <a href="#contact">Contact Us</a>
-         </div>
-      </div>
-      <!-- header -->
-      <header>
-         <!-- header inner -->
-         <div class="header">
-         <div class="menu_sitbar">
-            <ul class="menu">
-               <li><button type="button" >
-                  <img onclick="openNav()" src="images/menu_icon.png" alt="#"/>
-                  </button>
-               </li>
-            </ul>
-            <ul class="social_icon">
-               <li><a href="javascript:void(0)"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-               <li><a href="javascript:void(0)"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-               <li><a href="javascript:void(0)"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-            </ul>
-         </div>
+   </div>
+   <!-- header -->
+   <header>
+      <!-- header inner -->
+      <div class="header">
+
          <div class="header_full_bg">
             <div class="header_top">
                <div class="container">
                   <div class="row">
-                     <div class="col-md-12">
-                        <div class="logo">
-                           <a href="index.html"><img src="images/logo.png" alt="#"/></a>
+                     <div class="col-lg-4"></div>
+                     <div class="col-lg-4">
+                        <div class="logo responsive-div">
+                           <a href="index.html"><img src="images/logo.png" alt="#" /></a>
                         </div>
                      </div>
+                     <div class="col-lg-4"></div>
                   </div>
                </div>
             </div>
+
             <div class="banner">
                <div class="container-fluid">
-                  <div class="row">
-                     <div class="col-md-5">
-                        <div class="banner_text">
-                           <h1>Tea<br> Healing your mind~</h1>
-                           <a class="get_btn" href="#about" role="button" >About product</a> <a class="get_btn" href="#contact" role="button">Contact Us</a>
-                        </div>
-                     </div>
-                     <div class="col-md-7">
-                        <img class="bann_img" src="images/Tea-bannerTea-banner.png" alt="#"/>
+
+                  <div class="row" style="align-items: center;">
+                     <div class="col-md-offset-1 col-md-10 content">
+                        <img class="bann_img" src="images/banner.png" alt="#" />
                      </div>
                   </div>
+                  <div class="row">
+                     <div class="col-lg-2"></div>
+                     <div class="col-lg-8 d-flex justify-content-center">
+                        <div class="banner_text" style="margin-top: 3rem;">
+                           <h1 class="name_drink">Serim<br>Teapresso & More</h1>
+                           <a class="get_btn" href="#about" role="button" style="margin-bottom: 1rem;">About Us</a> <a
+                              class="get_btn" href="#contact" role="button">Contact Us</a>
+                        </div>
+                     </div>
+                     <div class="col-lg-2"></div>
+                  </div>
+
                </div>
             </div>
          </div>
 
       </div>
-      </header>
-      <!-- end header inner -->
-      <!-- end header -->
-      <!-- our product  -->
-      <div id="product" class="product_main">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage">
-                     <h2>Our product</h2>
-                  </div>
+   </header>
+   <!-- end header inner -->
+   <!-- end header -->
+   <!-- our product  -->
+   <div id="product" class="product_main">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="titlepage">
+                  <h2>Our product</h2>
                </div>
             </div>
-            <div class="row">
-               <div class="col-md-3 col-sm-6">
-                  <div class="product">
-                     <figure><img src="images/products/22f9a7070da7d3f98ab637.jpg" alt="#"/></figure>
-                     <h3>$400</h3>
-                     <span> Variations  </span>
-                     <a class="read_more mar_top" href="Javascript:void(0)"> Buy Now</a>
-                  </div>
+         </div>
+         <div class="row">
+            <div class="col-md-3 col-sm-6">
+               <div class="product">
+                  <figure><img src="images/products/22f9a7070da7d3f98ab637.jpg" alt="#" /></figure>
+                  <h3>$400</h3>
+                  <span> Variations </span>
+                  <a class="read_more mar_top" href="Javascript:void(0)"> Buy Now</a>
                </div>
-               <div class="col-md-3 col-sm-6">
-                  <div class="product">
-                     <figure><img src="images/products/2af31f16b5b66be832a727.jpg" alt="#"/></figure>
-                     <h3>$400</h3>
-                     <span>  Passages  </span>
-                     <a class="read_more mar_top" href="Javascript:void(0)"> Buy Now</a>
-                  </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+               <div class="product">
+                  <figure><img src="images/products/2af31f16b5b66be832a727.jpg" alt="#" /></figure>
+                  <h3>$400</h3>
+                  <span> Passages </span>
+                  <a class="read_more mar_top" href="Javascript:void(0)"> Buy Now</a>
                </div>
-               <div class="col-md-3 col-sm-6">
-                  <div class="product">
-                     <figure><img src="images/products/2b281fcdb56d6b33327c26.jpg" alt="#"/></figure>
-                     <h3>$400</h3>
-                     <span> Variations </span>
-                     <a class="read_more mar_top" href="Javascript:void(0)"> Buy Now</a>
-                  </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+               <div class="product">
+                  <figure><img src="images/products/2b281fcdb56d6b33327c26.jpg" alt="#" /></figure>
+                  <h3>$400</h3>
+                  <span> Variations </span>
+                  <a class="read_more mar_top" href="Javascript:void(0)"> Buy Now</a>
                </div>
-               <div class="col-md-3 col-sm-6">
-                  <div class="product">
-                     <figure><img src="images/products/58b4545ffeff20a179ee31.jpg" alt="#"/></figure>
-                     <h3>$400</h3>
-                     <span> Pedicure </span>
-                     <a class="read_more mar_top" href="Javascript:void(0)"> Buy Now</a>
-                  </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+               <div class="product">
+                  <figure><img src="images/products/58b4545ffeff20a179ee31.jpg" alt="#" /></figure>
+                  <h3>$400</h3>
+                  <span> Pedicure </span>
+                  <a class="read_more mar_top" href="Javascript:void(0)"> Buy Now</a>
                </div>
             </div>
          </div>
       </div>
-      <!-- end our product  -->
-      <!-- about -->
-      <div id="about" class="about">
-         <div class="container-fluid">
-            <div class="row d_flex">
-               <div class="col-md-6">
-                  <div class="titlepage">
-                     <h2>About Us</h2>
-                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or</p>
-                     <a class="read_more" href="Javascript:void(0)"> Read More</a>
-                  </div>
+   </div>
+   <!-- end our product  -->
+   <!-- about -->
+   <div id="about" class="about">
+      <div class="container-fluid">
+         <div class="row d_flex">
+            <div class="col-md-6">
+               <div class="titlepage">
+                  <h2>About Us</h2>
+                  <p>Bạn thân mến,<br>
+                     <br>Sau 02 năm bán trà sữa online với tên MM HomeFood - Bếp Mẹ Mun Mon, chúng mình mở cửa hàng đầu
+                     tiên vào tháng 5 năm 2023 và đổi tên thương hiệu thành Serim Teapresso & More. Trong suốt 02 năm
+                     duy trì bán online, Serim đã được hàng nghìn khách hàng đón nhận và yêu mến. Với việc ra mắt thương
+                     hiệu lần này, Serim vẫn tiếp tục duy trì dòng trà sữa truyền thống thơm trà, ngậy sữa rất được lòng
+                     khách hàng ở nhiều độ tuổi. Đồng thời, chúng mình đẩy mạnh hơn dòng trà sữa hiện đại khi đưa máy
+                     chiết trà theo phương pháp Teapresso vào sử dụng.
+
+                     <br><br>Với sự đầu tư nghiêm túc và lâu dài, Serim luôn mong muốn có thể chinh phục trái tim bạn
+                     bằng những sản phẩm chất lượng, thái độ phục vụ tận tâm, mang lại giá trị lành mạnh cả về vật chất
+                     và tinh thần.
+
+                  </p>
+                  <!-- <a class="read_more" href="Javascript:void(0)"> Read More</a> -->
                </div>
-               <div class="col-md-6 pad_right0">
-                  <div class="about_img ">
-                     <figure><img src="https://cdn.shopify.com/s/files/1/1403/5719/files/Night_Time_Tea.jpg?v=1598952321" alt="#"/></figure>
-                  </div>
+            </div>
+            <div class="col-md-6 pad_right0">
+               <div class="about_img ">
+                  <figure><img src="https://cdn.shopify.com/s/files/1/1403/5719/files/Night_Time_Tea.jpg?v=1598952321"
+                        alt="#" /></figure>
                </div>
             </div>
          </div>
       </div>
-      <!-- end about -->
-      <!-- growyhing -->
-      <div class="growyhing">
-         <div class="container">
-            <div class="row d_flex">
-               <div class="col-md-6">
-                  <div class="body_img">
-                     <figure><img src="images/Moon.jfif" align="#"/></figure>
-                  </div>
+   </div>
+   <!-- end about -->
+   <!-- growyhing -->
+   <div class="growyhing">
+      <div class="container">
+         <div class="row d_flex">
+            <div class="col-md-6">
+               <div class="body_img">
+                  <figure><img src="images/Moon.jfif" align="#" /></figure>
                </div>
-               <div class="col-md-6">
-                  <div class="titlepage">
-                     <h2>Growyhing Your Body From product</h2>
-                     <a class="read_more" href="Javascript:void(0)"> Read More</a>
-                  </div>
+            </div>
+            <div class="col-md-6">
+               <div class="titlepage">
+                  <h2>Growyhing Your Body From product</h2>
+                  <a class="read_more" href="Javascript:void(0)"> Read More</a>
                </div>
             </div>
          </div>
       </div>
-      <!-- end growyhing -->
-      <!-- feedback -->
-      <div id="feedback" class="feedback">
-         <div class="container-fluid">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage">
-                     <h2>Feedback</h2>
-                  </div>
+   </div>
+   <!-- end growyhing -->
+   <!-- feedback -->
+   <div id="feedback" class="feedback">
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="titlepage">
+                  <h2>Feedback</h2>
                </div>
             </div>
-            <div class="row">
-               <div class="col-md-5">
-                  <div class="body_blu_img">
-                     <figure><img src="images/tea-feedbacktea-feedback.jpg" alt="#"/></figure>
-                  </div>
+         </div>
+         <div class="row">
+            <div class="col-md-5">
+               <div class="body_blu_img">
+                  <figure><img src="images/feedback.jpg" alt="#" /></figure>
                </div>
-               <div class="col-md-7 pad_right0">
-                  <div class="testimo_ban_bg">
-                     <div id="testimo" class="carousel slide testimo_ban" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                           <li data-target="#testimo" data-slide-to="0" class="active"></li>
-                           <li data-target="#testimo" data-slide-to="1"></li>
-                           <li data-target="#testimo" data-slide-to="2"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                           <div class="carousel-item active">
-                              <div class="container">
-                                 <div class="carousel-caption relative2">
-                                    <div class="row d_flex">
-                                       <div class="col-md-11">
-                                          <i><img src="images/costu.png" alt="#"/></i>
-                                          <span>Consectetur</span>
-                                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
-                                       </div>
+            </div>
+            <div class="col-md-7 pad_right0">
+               <div class="testimo_ban_bg">
+                  <div id="testimo" class="carousel slide testimo_ban" data-ride="carousel">
+                     <ol class="carousel-indicators">
+                        <li data-target="#testimo" data-slide-to="0" class="active"></li>
+                        <li data-target="#testimo" data-slide-to="1"></li>
+                        <li data-target="#testimo" data-slide-to="2"></li>
+                     </ol>
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <div class="container">
+                              <div class="carousel-caption relative2">
+                                 <div class="row d_flex">
+                                    <div class="col-md-11">
+                                       <i><img src="images/feedback.jpg" style="max-height: 5rem;" alt="#" /></i>
+                                       <span>Consectetur</span>
+                                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                       </p>
                                     </div>
                                  </div>
                               </div>
                            </div>
-                           <div class="carousel-item">
-                              <div class="container">
-                                 <div class="carousel-caption relative2">
-                                    <div class="row d_flex">
-                                       <div class="col-md-11">
-                                          <i><img src="images/costu.png" alt="#"/></i>
-                                          <span>Consectetur</span>
-                                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
-                                       </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container">
+                              <div class="carousel-caption relative2">
+                                 <div class="row d_flex">
+                                    <div class="col-md-11">
+                                       <i><img src="images/feedback.jpg" style="max-height: 5rem;" alt="#" /></i>
+                                       <span>Consectetur</span>
+                                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                       </p>
                                     </div>
                                  </div>
                               </div>
                            </div>
-                           <div class="carousel-item">
-                              <div class="container">
-                                 <div class="carousel-caption relative2">
-                                    <div class="row d_flex">
-                                       <div class="col-md-11">
-                                          <i><img src="images/costu.png" alt="#"/></i>
-                                          <span>Consectetur</span>
-                                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
-                                       </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container">
+                              <div class="carousel-caption relative2">
+                                 <div class="row d_flex">
+                                    <div class="col-md-11">
+                                       <i><img src="images/feedback.jpg" style="max-height: 5rem;" alt="#" /></i>
+                                       <span>Consectetur</span>
+                                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                       </p>
                                     </div>
                                  </div>
                               </div>
                            </div>
-                           <a class="carousel-control-prev" href="#testimo" role="button" data-slide="prev">
+                        </div>
+                        <a class="carousel-control-prev" href="#testimo" role="button" data-slide="prev">
                            <i class="fa fa-angle-left" aria-hidden="true"></i>
                            <span class="sr-only">Previous</span>
-                           </a>
-                           <a class="carousel-control-next" href="#testimo" role="button" data-slide="next">
+                        </a>
+                        <a class="carousel-control-next" href="#testimo" role="button" data-slide="next">
                            <i class="fa fa-angle-right" aria-hidden="true"></i>
                            <span class="sr-only">Next</span>
-                           </a>
-                        </div>
+                        </a>
                      </div>
                   </div>
                </div>
             </div>
          </div>
       </div>
-      <!-- end feedback -->
-      <!--  contact -->
-      <div id="contact" class="contact">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage">
-                     <h2>Request a call back</h2>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-md-6 offset-md-3">
-                  <form id="request" class="main_form">
-                     <div class="row">
-                        <div class="col-md-12 ">
-                           <input class="contactus" placeholder="Full Name" type="type" name="Full Name"> 
-                        </div>
-                        <div class="col-md-12">
-                           <input class="contactus" placeholder="Email " type="type" name="Email "> 
-                        </div>
-                        <div class="col-md-12">
-                           <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">                          
-                        </div>
-                        <div class="col-md-12">
-                           <textarea class="textarea" placeholder="Message" type="type" Message="Name">Message</textarea>
-                        </div>
-                        <div class="col-md-12">
-                           <button class="send_btn">Send</button>
-                        </div>
-                     </div>
-                  </form>
+   </div>
+   <!-- end feedback -->
+   <!--  contact -->
+   <!-- <div id="contact" class="contact">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="titlepage">
+                  <h2>Request a call back</h2>
                </div>
             </div>
          </div>
-      </div>
-      <!-- end contact -->
-      <!--  footer -->
-      <footer>
-         <div class="footer">
-            <div class="daih_bg">
-               <div class="container">
+         <div class="row">
+            <div class="col-md-6 offset-md-3">
+               <form id="request" class="main_form">
                   <div class="row">
-                     <div class="col-sm-12">
-                        <ul class="conta">
-                           <li><i class="fa fa-phone" aria-hidden="true"></i> Call Now phone number shop</li>
-                           <li><i class="fa fa-map-marker" aria-hidden="true"></i></li>
-                           <li> <i class="fa fa-envelope" aria-hidden="true"></i><a href="#">Email of shop</a></li>
-                        </ul>
+                     <div class="col-md-12 ">
+                        <input class="contactus" placeholder="Full Name" type="type" name="Full Name">
+                     </div>
+                     <div class="col-md-12">
+                        <input class="contactus" placeholder="Email " type="type" name="Email ">
+                     </div>
+                     <div class="col-md-12">
+                        <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">
+                     </div>
+                     <div class="col-md-12">
+                        <textarea class="textarea" placeholder="Message" type="type" Message="Name">Message</textarea>
+                     </div>
+                     <div class="col-md-12">
+                        <button class="send_btn">Send</button>
                      </div>
                   </div>
-               </div>
+               </form>
             </div>
+         </div>
+      </div>
+   </div> -->
+   <!-- end contact -->
+   <!--  footer -->
+   <footer>
+      <div class="footer">
+         <div class="daih_bg">
             <div class="container">
                <div class="row">
                   <div class="col-sm-12">
-                     <img class="tex_left" src="images/logo2.png" alt="#"/>
-                  </div>
-                  <div class=" col-md-3 col-sm-6">
-                     <p class="variat">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim Lorem ipsum </p>
-                  </div>
-                  <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
-                     <h3>Information  </h3>
-                     <ul class="link_menu">
-                        <li> There are many </li>
-                        <li> variations of pas</li>
-                        <li> sages of Lorem </li>
-                        <li> Ipsum available, </li>
-                        <li>but the majority </li>
-                        <li>have suffered  </li>
+                     <ul class="conta">
+                        <li><i class="fa fa-phone" aria-hidden="true"></i> Với thái độ cầu thị, Serim rất mong sẽ được
+                           nhận những góp ý của bạn để hoàn thiện hơn.
+                           <br>Trong quá trình sử dụng sản phẩm, dịch vụ của Serim nếu có bất kỳ khiếu nại nào,
+                           <br>bạn hãy gọi điện, nhắn tin vào số hotline dưới đây để phản ánh phản ánh.
+                           <br>Serim cam kết sẽ giải quyết khiếu nại của bạn trong vòng 1 giờ.
+                        </li>
+                        <li>
+                           <i class="fa fa-map-marker" aria-hidden="true"></i>
+                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14895.534467342006!2d105.82516294949285!3d21.037342289297097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135abe09e05afe7%3A0x9e017fd645992560!2sPhuc%20Long%20Coffee%20%26%20Tea!5e0!3m2!1sen!2s!4v1686026351943!5m2!1sen!2s" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </li>
+                        <li> 
+                           <i class="fa fa-envelope" aria-hidden="true"></i>
+                           <a href="#">Email of shop</a>
+                        </li>
                      </ul>
-                  </div>
-                  <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
-                     <h3>Helpful Links</h3>
-                     <ul class="link_menu">
-                        <li> There are many </li>
-                        <li> variations of pas</li>
-                        <li> sages of Lorem </li>
-                        <li> Ipsum available, </li>
-                        <li>but the majority </li>
-                        <li>have suffered  </li>
-                     </ul>
-                  </div>
-                  <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
-                     <h3>Supported</h3>
-                     <ul class="link_menu">
-                        <li> There are many </li>
-                        <li> variations of pas</li>
-                        <li> sages of Lorem </li>
-                        <li> Ipsum available, </li>
-                        <li>but the majority </li>
-                        <li>have suffered  </li>
-                     </ul>
-                  </div>
-                  <div class="col-sm-12">
-                     <ul class="social2_icon">
-                        <li><a href="javascript:void(0)"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="javascript:void(0)"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="javascript:void(0)"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                        <li><a href="javascript:void(0)"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-            <!-- <div class="copyright"> -->
-               <div class="container">
-                  <div class="row">
-                     <div class="col-md-10 offset-md-1">
-                        <p>Name of Shop</a></p>
-                     </div>
                   </div>
                </div>
             </div>
          </div>
-      </footer>
-      <!-- end footer -->
-      <!-- Javascript files-->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
-      <!-- sidebar -->
-      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-      <script src="js/custom.js"></script>
-      <script>
-         function openNav() {
-           document.getElementById("myNav").style.width = "100%";
-         }
-         
-         function closeNav() {
-           document.getElementById("myNav").style.width = "0%";
-         }
-      </script>
-   </body>
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12">
+                  <img class="tex_left" src="images/logo2.png" alt="#" />
+               </div>
+               <div class=" col-md-3 col-sm-6">
+                  <p class="variat">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim Lorem ipsum </p>
+               </div>
+               <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
+                  <h3>Thông tin liên hệ </h3>
+                  <ul class="link_menu">
+                     <strong>
+                        <span style="font-size:1rem;font-style:inherit;letter-spacing:2.5px;">HOTLINE:</span>
+                     </strong>
+                     <li>
+                        <a href="tel:+84965631523">0965631523</a>
+                     </li>
+                     <li> 
+                        0867732268
+                     </li>
+                     <strong>
+                        <span style="font-size:1rem;font-style:inherit;letter-spacing:2.5px;">EMAIL:</span>
+                     </strong>
+                     <li></li>
+                     <strong>
+                        <span style="font-size:1rem;font-style:inherit;letter-spacing:2.5px;">TIKTOK:</span>
+                     </strong>
+                     <li></li>
+                  </ul>
+               </div>
+               <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
+                  <h3>Địa chỉ</h3>
+                  <ul class="link_menu">
+                     <li> There are many </li>
+                     <li> variations of pas</li>
+                     <li> sages of Lorem </li>
+                     <li> Ipsum available, </li>
+                     <li>but the majority </li>
+                     <li>have suffered </li>
+                  </ul>
+               </div>
+               <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
+                  <h3>Supported</h3>
+                  <ul class="link_menu">
+                     <li> There are many </li>
+                     <li> variations of pas</li>
+                     <li> sages of Lorem </li>
+                     <li> Ipsum available, </li>
+                     <li>but the majority </li>
+                     <li>have suffered </li>
+                  </ul>
+               </div>
+               <div class="col-sm-12">
+                  <ul class="social2_icon">
+                     <li><a href="javascript:void(0)"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                     <li><a href="javascript:void(0)"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                     <li><a href="javascript:void(0)"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                     <li><a href="javascript:void(0)"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <!-- <div class="copyright"> -->
+         <div class="container">
+            <div class="row">
+               <div class="col-md-10 offset-md-1">
+                  <p>Name of Shop</a></p>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+   </footer>
+   <!-- end footer -->
+   <!-- Javascript files-->
+   <script src="js/jquery.min.js"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/jquery-3.0.0.min.js"></script>
+   <!-- sidebar -->
+   <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+   <script src="js/custom.js"></script>
+   <script>
+      function openNav() {
+         document.getElementById("myNav").style.width = "100%";
+      }
+
+      function closeNav() {
+         document.getElementById("myNav").style.width = "0%";
+      }
+   </script>
+</body>
+
 </html>
