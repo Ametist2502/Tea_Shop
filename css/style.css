@@ -208,6 +208,7 @@ button {
      margin: 0;
      padding: 0;
      cursor: pointer;
+
 }
 
 .full {
@@ -264,12 +265,12 @@ button {
 }
 
 .header_full_bg {
-     background: #C58E4C;
+     background: #FFD8A8;
      width: 100%;
 }
 @media screen and (max-width: 768px) {
      .header_full_bg {
-       background: #FABE8F;
+       background: #FFD8A8;
      }
    }
    
@@ -408,7 +409,6 @@ ul.social_icon li a:hover {
 }
 
 .get_btn {
-     background-color: #151616;
      color: #fff;
      text-align: center;
      max-width: 195px;
@@ -418,6 +418,8 @@ ul.social_icon li a:hover {
      padding: 8px 0;
      display: inline-block;
      margin-right: 10px;
+     border-radius: 10px;
+     background-color: #C58E4C;
 }
 
 .get_btn:hover {
@@ -457,7 +459,6 @@ ul.social_icon li a:hover {
 
 .read_more {
      font-size: 17px;
-     background-color: #3e3f40;
      color: #fff;
      padding: 9px 0px;
      width: 100%;
@@ -467,6 +468,8 @@ ul.social_icon li a:hover {
      transition: ease-in all 0.5s;
      font-weight: 500;
      height: 46px;
+     border-radius: 10px;
+     background-color: #C58E4C;
 }
 
 .read_more:hover {
@@ -526,6 +529,8 @@ ul.social_icon li a:hover {
      height: 40px;
      padding: 4px 0;
      margin-top: 15px;
+     border-radius: 10px;
+     background-color: #C58E4C;
 }
 
 
@@ -536,8 +541,11 @@ ul.social_icon li a:hover {
 
 .about {
      background-color: #fff;
-     padding-top: 80px;
+     padding-top: 30px;
      position: relative;
+     margin-top: 10px;
+     border-top: #44190B solid;
+
 }
 
 .about .titlepage {
@@ -575,9 +583,8 @@ ul.social_icon li a:hover {
 /** growyhing section **/
 
 .growyhing {
-     border-top: #eaeaea solid 1px;
-     border-bottom: #eaeaea solid 1px;
-     margin-top: 80px;
+     border-top: #44190B solid;
+     margin-top: 30px;
      padding-top: 40px;
 }
 
@@ -602,6 +609,15 @@ ul.social_icon li a:hover {
      bottom: 0;
      left: -40px;
 }
+
+.feedback {
+     background-color: #fff;
+     padding-top: 30px;
+     margin-top: 10px;
+     border-top: #44190B solid;
+
+}
+
 
 .body_img figure {
      margin: 0;
